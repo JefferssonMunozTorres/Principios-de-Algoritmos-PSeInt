@@ -1,0 +1,7 @@
+¿Qué es una prueba de escritorio?
+Una prueba de escritorio no consiste en brindar un enunciado,
+sino, de brindar un pseudocodigo listo para analizar.
+La propuesto es ir tabulando los cambios de las variables que se
+encuentran en el pseudocodigo.
+El objetivo de estos ejercicios es que puedas deducir los resultados 
+del pseudocodigo que escribes mientras desarrollas un enunciado. 

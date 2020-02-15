@@ -61,15 +61,4 @@ Algoritmo sin_titulo
 	
 	Escribir "El empleado recibe en ese mes: " , sueldoNeto 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 FinAlgoritmo

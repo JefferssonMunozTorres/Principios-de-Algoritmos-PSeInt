@@ -6,9 +6,10 @@ Proceso sin_titulo
 	//por número de UIT(Unidad Impositiva Tributaria equivalente 
 	//a S/. 3,950), según el siguiente cuadro: 
 	
-	//8%  -->  0 - 7 UIT
-	//14%  --> mas de 7 - 12 UIT
-	//21%  --> mas de 12 - 30 UIT
+	//0%  -->  0 - 7 UIT
+	//8%  -->  mas de 7 - 12 UIT
+	//14%  --> mas de 12 - 21 UIT
+	//21%  --> mas de 21 - 30 UIT
 	//30%  --> mas de 30
 	
 	Definir i, N, UIT Como Entero
@@ -28,15 +29,19 @@ Proceso sin_titulo
 		anual <- sueldo * 14
 		
 		Si anual <= (7 * UIT) Entonces
-			impuesto <- sueldo * 0.08
+			impuesto <- 0
 		SiNo
 			Si anual <= (12 * UIT) Entonces
-				impuesto <- sueldo * 0.14
+				impuesto <- sueldo * 0.08
 			SiNo
-				Si anual <= (30 * UIT) Entonces
-					impuesto <- sueldo * 0.21
+				Si anual <= (21 * UIT) Entonces
+					impuesto <- sueldo * 0.14
 				SiNo
-					impuesto <- sueldo * 0.30
+					Si anual <= (30 * UIT) Entonces
+						impuesto <- sueldo * 0.21
+					SiNo
+						impuesto <- sueldo * 0.30
+					FinSi
 				FinSi
 			FinSi
 		FinSi

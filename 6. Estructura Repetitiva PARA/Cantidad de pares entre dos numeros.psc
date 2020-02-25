@@ -1,0 +1,33 @@
+PROCESO NUMEROS_PARES
+	//Diseñe un algoritmo que muestre y determine la cantidad 
+	//de números pares comprendidos entre dos números enteros
+	//A y B: A <= #PARES <= B.
+	
+	DEFINIR NUMEROMIN, NUMEROMAX, SUMAPARES,I  COMO ENTERO
+	
+	ESCRIBIR "INGRESAR UN NÚMERO NATURAL:"
+	LEER NUMEROMIN
+	ESCRIBIR "INGRESAR UN NÚMERO NATURAL MAYOR AL ANTERIOR:"
+	LEER NUMEROMAX
+	
+	SUMAPARES<-0
+	
+	SI NUMEROMAX>NUMEROMIN ENTONCES
+		ESCRIBIR "LOS NÚMEROS PARES COMPRENDIDOS: ",NUMEROMIN, " <= ... <= ", NUMEROMAX, " SON:"
+		ESCRIBIR "****************************************************"
+		
+		PARA I<-NUMEROMIN HASTA NUMEROMAX CON PASO 1 HACER
+			SI  (I MOD 2) = 0 ENTONCES
+				ESCRIBIR I
+				SUMAPARES<-SUMAPARES + 1
+			FINSI
+		FINPARA
+		
+	SINO
+		ESCRIBIR  "DEBE CONSIDERAR OTROS NÚMEROS/ ERROR DE INGRESO DE DATOS"
+	FINSI
+	
+	ESCRIBIR "****************************************************"
+	ESCRIBIR "LA CANTIDAD DE NUMEROS PARES ES: ", SUMAPARES
+	ESCRIBIR "****************************************************"
+FINPROCESO

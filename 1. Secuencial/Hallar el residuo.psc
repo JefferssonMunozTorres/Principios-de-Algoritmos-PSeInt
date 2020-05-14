@@ -1,8 +1,8 @@
 Algoritmo sin_titulo
 	//Hallar el resto (residuo) de 2 numeros
 	
-	Definir dividendo, divisor como Entero
-	Definir residuo como Entero
+	Definir dividendo, divisor como Entero //Entrada
+	Definir residuo como Entero //Salida
 	
 	Escribir "Ingrese el dividendo"
 	Leer dividendo 

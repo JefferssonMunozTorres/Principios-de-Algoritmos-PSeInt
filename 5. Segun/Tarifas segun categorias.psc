@@ -7,9 +7,9 @@ Proceso sin_titulo
 	//________________________________________
 	//|             |  Tarifa (S/. x unidad)  |
 	//| Categoría   |    Tejas    |   Losetas |
-	//|		A		|	2.50	  |		2.00  |
-	//|		B		|	2.00	  |		1.50  |
-	//|		C		|	1.50	  |		1.00  |
+	//|		A		  |		2.50	  |		2.00  |
+	//|		B		  |		2.00	  |		1.50  |
+	//|		C		  |		1.50	  |		1.00  |
 	//----------------------------------------
 	
 	//Así mismo, el obrero recibe una bonificación especial de acuerdo
